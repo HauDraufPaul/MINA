@@ -1,0 +1,11 @@
+{
+  "package": {
+    "productName": "mina",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "bundle": {
+      "active": true
+    }
+  }
+}
