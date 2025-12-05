@@ -5,13 +5,17 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "gen:ipc": "node ../scripts/generate-ipc.js"
   },
   "dependencies": {
+    "@monaco-editor/react": "^5.0.1",
+    "@tauri-apps/api": "^2.0.0",
+    "framer-motion": "^10.12.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "zustand": "^4.4.0",
-    "framer-motion": "^10.12.0"
+    "xterm": "^5.2.0",
+    "zustand": "^4.4.0"
   },
   "devDependencies": {
     "vite": "^5.0.0",
